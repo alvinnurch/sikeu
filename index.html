@@ -49,13 +49,13 @@
    Isi URL_APPSCRIPT dengan URL web app hasil deploy Apps Script.
    Bentuknya: https://script.google.com/macros/s/AKfycb.../exec
    ============================================================ */
-var URL_APPSCRIPT = 'GANTI_DENGAN_URL_APPSCRIPT';
+var URL_APPSCRIPT = 'https://script.google.com/macros/s/AKfycbyiEskijIBga6HNalKVReGUA3Vf5n3RzY1DihfejRYGhJ8GbJz4lSbaiRovtD5RmZVHMg/exec';
 
 (function () {
   var bingkai = document.getElementById('bingkai');
   var tunggu  = document.getElementById('tunggu');
   var galat   = document.getElementById('galat');
-  document.getElementById('tautLangsung').href = https://script.google.com/macros/s/AKfycbwhrHGQ9CcY8YqUpWHNI1Jw30Ju2cv8j2TpWA-QZvrrOFfMtLhbh_7LKv5-plHef0Q_/exec;
+  document.getElementById('tautLangsung').href = URL_APPSCRIPT;
 
   if (URL_APPSCRIPT.indexOf('script.google.com') < 0) {
     document.querySelector('#tunggu .bar').style.display = 'none';
